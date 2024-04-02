@@ -1,0 +1,23 @@
+{
+  "name": "check-dts-bug",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "author": "Francisco Presencia <public@francisco.io> (https://francisco.io/)",
+  "license": "MIT",
+  "scripts": {},
+  "devDependencies": {
+    "check-dts": "^0.7.2"
+  },
+  "type": "module",
+  "types": "index.d.ts",
+  "main": "src/index.js",
+  "files": [
+    "src/",
+    "index.d.ts"
+  ],
+  "jest": {
+    "testEnvironment": "jest-environment-node",
+    "transform": {}
+  }
+}
